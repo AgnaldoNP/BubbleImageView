@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="DefaultBubbleImageView">
+        <item name="arrowSize">4dp</item>
+        <item name="arrowVisible">true</item>
+        <item name="arrowDirection">left</item>
+    </style>
+
+</resources>
+

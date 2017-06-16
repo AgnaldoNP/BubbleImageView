@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleImageView">
+        <attr name="round" format="dimension" />
+        <attr name="arrowSize" format="dimension" />
+        <attr name="baseArrowSize" format="dimension" />
+        <attr name="arrowVisible" format="boolean" />
+        <attr name="arrowDirection" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+
+        <attr name="arrowAnchor" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+            <enum name="middle" value="4"/>
+        </attr>
+    </declare-styleable>
+    <!-- attributes for other views -->
+
+    <attr name="bubbleImageViewStyle" format="reference" />
+</resources>

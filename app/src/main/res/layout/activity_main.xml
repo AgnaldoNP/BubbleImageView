@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaa"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="4"
+    tools:context="pereira.agnaldo.librarybubbleimageview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="top"
+            app:arrowDirection="left"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="middle"
+            app:arrowDirection="left"
+            app:arrowSize="12dp"
+            app:baseArrowSize="16dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="bottom"
+            app:arrowDirection="left"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="top"
+            app:arrowDirection="right"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="middle"
+            app:arrowDirection="right"
+            app:arrowSize="12dp"
+            app:baseArrowSize="16dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="bottom"
+            app:arrowDirection="right"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="left"
+            app:arrowDirection="top"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="middle"
+            app:arrowDirection="top"
+            app:arrowSize="12dp"
+            app:baseArrowSize="16dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="right"
+            app:arrowDirection="top"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="left"
+            app:arrowDirection="bottom"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="middle"
+            app:arrowDirection="bottom"
+            app:arrowSize="12dp"
+            app:baseArrowSize="16dp"
+            app:round="4dp"/>
+
+        <pereira.agnaldo.library.BubbleImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music"
+            app:arrowAnchor="right"
+            app:arrowDirection="bottom"
+            app:arrowSize="12dp"
+            app:baseArrowSize="12dp"
+            app:round="4dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
