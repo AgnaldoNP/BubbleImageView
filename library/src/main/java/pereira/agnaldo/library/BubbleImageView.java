@@ -287,11 +287,15 @@ public class BubbleImageView extends android.support.v7.widget.AppCompatImageVie
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onDraw(Canvas canvas) {
-        canvas.clipPath(maskBubblePath);
-        canvas.clipPath(arrowPath, Region.Op.UNION);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            maskBubblePath.op(arrowPath, Path.Op.UNION);
+            canvas.clipPath(maskBubblePath);
+        } else {
+            canvas.clipPath(maskBubblePath);
+            canvas.clipPath(arrowPath, Region.Op.UNION);
+        }
         super.onDraw(canvas);
     }
 
